@@ -1,0 +1,30 @@
+header{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    display: flex;
+}
+
+header li{
+    list-style: none;
+    padding: 12px;
+}
+
+#search_bar{
+    justify-content: stretch;
+    border: 1px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 11px 0px rgba(66,63,66,0.2);
+}
+
+#search_bar li:not(:last-of-type){
+    border-right: 1px solid lightslategray;
+}
+
+#login_bar{
+
+}
