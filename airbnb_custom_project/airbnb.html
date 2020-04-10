@@ -10,38 +10,36 @@
 <body>
     
     <header>
-        <img src="images/logo.jpg" height="80px">
+        <img src="images/logo_hd.jpg" height="80px">
         
         <ul id="search_bar">
             <li>Introduce un destino</li>
             <li>Introduce fechas</li>
             <li>Anade huespedes</li>
-            <li class="last_separator"><i class="fas fa-search"></i></li>
+            <li id="search_picto" class="last_separator"><i class="fas fa-search"></i></li>
         </ul>
         
         <ul id="login_bar">
-            <li><i class="fas fa-globe"></i>  ⬇</li>
+            <li><i class="fas fa-globe"></i> <i class="fas fa-chevron-down"></i></li>
             <li>Ayuda</li>
-            <li>Registrate</li>
+            <li id="header_login_bar_register">Registrate</li>
         </ul>
     </header>
     
     <section>
-        
-        <button id="fixed_share_button">Compartir</button>
-        <button id="fixed_save_button">Guardar</button>
-        <button id="fixed_photos_button">Ver fotos</button> 
         
         <div class="big_photo">
             <img src="images/flat_photo_1.jpg">
         </div>
         
         <div class="small_photo_1">
-            <img src="images/flat_photo_2.jpg" >
+            <img src="images/flat_photo_4.jpg" >
         </div>
         
         <div class="small_photo_2">
             <img src="images/flat_photo_3.jpg">
+            <button class="fixed_gallery_button" id="fixed_share_button"><i class="far fa-share-square"></i> Compartir</button>
+            <button class="fixed_gallery_button" id="fixed_save_button"<i class="far fa-heart"></i>>Guardar</button>
         </div>
         
         <div class="small_photo_3">
@@ -50,23 +48,23 @@
         
         <div class="small_photo_4">
             <img src="images/flat_photo_4.jpg"> 
-        </div>
-        
+            <button class="fixed_gallery_button" id="fixed_photos_button">Ver fotos</button>
+        </div>    
         
     </section>
     
     
     <main>
-
+        
         <div id="flat_desctiption">
-
+            
             <div id="flat_description_header">
                 <div>
-                    <h1>Encantador piso centro de madrid!!!</h1>
+                    <h1>Encantador piso centro de Madrid!!!</h1>
                     <div>Madrid</div>
                 </div>
                 <div id="avatar">
-                    <img src="images/avatar_paula.jpg" width="50px">
+                    <img src="images/avatar_paula.jpg">
                     <div>Paula</div>
                 </div>
             </div>
@@ -77,9 +75,9 @@
                 <li>2 camas</li>        
                 <li>1 baño</li>        
             </ul>
-
+            
             <hr>
-                        
+            
             <div>🏠 <b>Alojamiento entero</b></div>
             <div>Dispondrás de toda la vivienda (apartamento) para ti.</div>
             
@@ -93,7 +91,7 @@
             <div>Los Superhosts son anfitriones con experiencia y valoraciones excelentes que se esfuerzan para que la estancia de sus huéspedes sea siempre perfecta.</div>
             
             <hr>
-
+            
             <p>AIR CONDITIONING, TERRACE, WIFI FOR A PLEASANT SUMMER IN MADRID. <br> This beautiful apartament is located in the heart of Madrid, within walking distance of the most important museums, Reina Sofia, Museo del Praso, Caixa Forum. Easy access from Atocha train station, and only 10 minutes from Plaza Sol and Plaza Mayor. <br> Se encuentra ubicado en pleno corazon de madrid, a pasos de los museos, Reina Sofia, Museo del Praso. De facil acceso de la estacion de tren Atocha, a 10 min de plaza Sol y Plaza Mayor.
             </p>
             
@@ -101,7 +99,7 @@
             <div>Contacta con el anfitrión</div>
             
             <hr>
-
+            
             <div>Servicios</div>
             
             <ul id="flat_description_services">
@@ -121,7 +119,7 @@
             
             <div>Mostrar los 24 servicios</div>
         </div>
-
+        
         <div id="booking">
             <div><b><s>40€</s> 32€ /noche</b></div>
             <div>⭐4,75 (620 evaluaciones)</div>
@@ -130,40 +128,40 @@
             <div class="selector">20/04/2020 > 21/4/2020</div>
             <div>Huespedes</div>
             <div class="selector">2 huespedes</div>
-            </form>
-            
-            <div class="price_recap">
-                <div>32€ x 1 noche <i class="far fa-question-circle"></i></div>
-                <div>32€</div>
-            </div>
-            <hr>
-
-            <div class="price_recap">
-                <div>Gastos de limpieza <i class="far fa-question-circle"></i></div>
-                <div>20</div>
-            </div>
-            <hr>
-
-            <div class="price_recap">
-                <div>Tarifia de servicio <i class="far fa-question-circle"></i></div>
-                <div>9€</div>
-            </div>
-            <hr>
-
-            <div class="price_recap">
-                <div>Total</div>
-                <div>32€</div>
-            </div>
-
-            
-            <button>Reservar</button>
-            
-            <div>No se hará ningún cargo de momento <br> Es posible que para algunas reservas sea necesaria una fianza.</div>
-
-        </div>
-
+        </form>
         
-    </main>
+        <div class="price_recap">
+            <div>32€ x 1 noche <i class="far fa-question-circle"></i></div>
+            <div>32€</div>
+        </div>
+        <hr>
+        
+        <div class="price_recap">
+            <div>Gastos de limpieza <i class="far fa-question-circle"></i></div>
+            <div>20</div>
+        </div>
+        <hr>
+        
+        <div class="price_recap">
+            <div>Tarifia de servicio <i class="far fa-question-circle"></i></div>
+            <div>9€</div>
+        </div>
+        <hr>
+        
+        <div class="price_recap">
+            <div>Total</div>
+            <div>32€</div>
+        </div>
+        
+        
+        <button>Reservar</button>
+        
+        <div>No se hará ningún cargo de momento <br> Es posible que para algunas reservas sea necesaria una fianza.</div>
+        
+    </div>
     
+    
+</main>
+
 </body>
 </html>

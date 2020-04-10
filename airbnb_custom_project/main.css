@@ -1,8 +1,11 @@
 main{
-    /* background-color: brown; */
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     margin-top: 5px;
+}
+
+main h1{
+    margin: 10px 0px;
 }
 
 main li{
@@ -23,17 +26,18 @@ main li{
 }
 
 #avatar{
-    margin: 30px 50px 0px 50px;
+    margin: 10px 50px;
 }
 
 #flat_description_header img{
-    height: 40px;
+    height: 70px;
 }
 
 #flat_description_facilities{
     padding: 0;
     display: flex;
     text-align: left;
+    margin: 0;
 }
 
 #flat_description_facilities li{
