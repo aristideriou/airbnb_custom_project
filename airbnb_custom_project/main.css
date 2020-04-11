@@ -1,7 +1,7 @@
 main{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 main h1{
@@ -46,7 +46,7 @@ main li{
 }
 
 #flat_description_facilities li{
-    margin : 5px;
+    margin : 8px;
 }
 
 
@@ -76,22 +76,26 @@ main li{
 }
 
 
-
 #booking{
-    border: 1px solid grey;
+    border: 1px solid #E4E4E4;
     margin: 10px;
     padding: 20px;
 }
 
+#booking_note{
+    font-size: 0.7rem;
+}
+
 #booking hr{
     margin: 15px 0px;
+    border: 1px solid #EBEBEB;
 }
 
 .selector{
-    border: 1px solid gray;
+    border: 1px solid #EBEBEB;
     cursor: pointer;
-    padding: 3px;
-    margin-bottom: 5px;
+    margin: 0px 0px 13px 1px;
+    padding: 9px;
 }
 
 .price_recap{
@@ -104,8 +108,12 @@ main li{
     background-color: #FF5A5F;
     color: white;
     font-weight: bolder;
+    font-size: 1.2em;
     padding: 15px;
-    margin-top: 25px;
+    margin: 20px 0px 5px 0px;
     border: none;
 }
 
+#booking_legal_text{
+    text-align: center;
+}
